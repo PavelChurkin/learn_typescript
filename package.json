@@ -1,0 +1,32 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "TypeScript learning course with modular code examples",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "module01": "ts-node src/modules/01-introduction/index.ts",
+    "module02": "ts-node src/modules/02-variables-operators/index.ts",
+    "module03": "ts-node src/modules/03-conditionals/index.ts",
+    "module04": "ts-node src/modules/04-loops/index.ts",
+    "module05": "ts-node src/modules/05-functions/index.ts",
+    "module06": "ts-node src/modules/06-arrays/index.ts",
+    "module07": "ts-node src/modules/07-objects/index.ts",
+    "module08": "ts-node src/modules/08-performance/index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "learning",
+    "tutorial",
+    "course"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
